@@ -12,6 +12,8 @@ function App() {
   }
   useEffect(getDogsFromServer, [])
 
+
+
   return (
     <div className="App">
       <Logo />
