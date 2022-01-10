@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
+import AddNewCardForm from './components/AddNewCardForm'
 import ImageContainer from './components/ImageContainer/ImageContainer'
 import Logo from './components/Logo/Logo'
 
@@ -14,7 +15,10 @@ function App() {
   return (
     <div className="App">
       <Logo />
-
+      <AddNewCardForm
+        dogImages={dogImages}
+        setDogImages={setDogImages}
+      />
       {/* <!-- image cards --> */}
       <ImageContainer
         dogImages={dogImages}

@@ -1,0 +1,36 @@
+.new-post-article{
+    display: grid;
+    place-items: start;
+    gap:10px;
+    border: 1px solid #00000020;
+    padding:15px 20px;
+    width: 350px;
+    background-color: white;
+  }
+  .new-post-article input{
+    border:none;
+    margin: 10px;
+    padding:3px;
+    font-size: 15px;
+  }
+  .new-post-article form{
+      display: grid;
+  }
+  .submit-btn{
+   margin-left:250px;
+   color:royalblue;
+   border:none;
+   padding:5px;
+   font-weight: bold;
+   border-radius: 5px;
+   
+  }
+  .title-input{
+    display: block;
+  }
+  .url-input{
+      display: block;
+  }
+  .new-post-title{
+    font-size:1.5rem;
+  }

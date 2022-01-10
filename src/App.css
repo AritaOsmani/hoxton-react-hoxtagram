@@ -10,3 +10,8 @@ body {
   background-color: #fafafa;
 }
 
+.App{
+  display: grid;
+  place-items: center;
+  gap:20px;
+}
