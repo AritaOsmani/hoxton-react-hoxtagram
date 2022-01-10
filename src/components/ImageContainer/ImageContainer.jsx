@@ -7,6 +7,8 @@ function ImageContainer(props) {
             <ImageCard
                 key={dogImage.id}
                 dogImage={dogImage}
+                setDogImages={props.setDogImages}
+                dogImages={props.dogImages}
             />)}
 
     </section>

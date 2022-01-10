@@ -1,3 +1,4 @@
+import CommentForm from './CommentForm'
 import CommentsSection from './CommentsSection'
 import './ImageCard.css'
 import ImageCardImage from './ImageCardImage'
@@ -16,6 +17,11 @@ function ImageCard(props) {
         />
         <CommentsSection
             dogImage={props.dogImage}
+        />
+        <CommentForm
+            dogImage={props.dogImage}
+            setDogImages={props.setDogImages}
+            dogImages={props.dogImages}
         />
     </article>
 }

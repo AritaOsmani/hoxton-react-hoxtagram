@@ -22,6 +22,7 @@ function App() {
       {/* <!-- image cards --> */}
       <ImageContainer
         dogImages={dogImages}
+        setDogImages={setDogImages}
       />
     </div>
   )
