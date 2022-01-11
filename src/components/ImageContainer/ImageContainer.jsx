@@ -9,6 +9,8 @@ function ImageContainer(props) {
                 dogImage={dogImage}
                 setDogImages={props.setDogImages}
                 dogImages={props.dogImages}
+                editSelected={props.editSelected}
+                setEditSelected={props.setEditSelected}
             />)}
 
     </section>

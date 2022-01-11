@@ -13,7 +13,9 @@ function Comment(props) {
     }
     return <div className="comment-content-buttons">
         <li>{props.comment.content}</li>
-        <button className="edit-btn">Edit</button>
+        <button onClick={function () {
+            props.setEditSelected(true)
+        }} className="edit-btn">Edit</button>
         <button onClick={
             function () {
                 deleteComment(props.comment)
