@@ -12,7 +12,15 @@ function App() {
   }
   useEffect(getDogsFromServer, [])
 
+  // function deletePost(dogImage) {
+  //   fetch(`http://localhost:3000/images/${dogImage.id}`, {
+  //     method: 'DELETE'
 
+  //   })
+  //   let updated = JSON.parse(JSON.stringify(dogImages));
+  //   updated = updated.filter(image => image.id !== dogImage.id)
+  //   setDogImages(updated);
+  // }
 
   return (
     <div className="App">

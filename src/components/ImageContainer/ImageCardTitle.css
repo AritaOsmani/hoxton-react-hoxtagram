@@ -5,3 +5,14 @@
     font-weight: 600;
     color: #000000dd;
   }
+  .card-title-button{
+    display: grid;
+    grid-template-columns: auto 50px;
+    padding:5px
+  }
+  .delete-btn{
+    border:none;
+    background-color: unset;
+    color:red;
+    cursor: pointer;
+  }

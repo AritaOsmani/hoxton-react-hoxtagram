@@ -8,6 +8,8 @@ function ImageCard(props) {
     return <article className="image-card">
         <ImageCardTitle
             dogImage={props.dogImage}
+            dogImages={props.dogImages}
+            setDogImages={props.setDogImages}
         />
         <ImageCardImage
             dogImage={props.dogImage}
