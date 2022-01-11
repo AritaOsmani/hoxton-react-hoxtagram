@@ -63,4 +63,34 @@
   .comment-form.image-card .comment-button {
     font-size: 1rem;
   }
-  
+  .comment-content-buttons{
+    display: grid;
+    grid-template-columns: auto 40px 40px;
+   
+  }
+  .comment-content-buttons .delete-btn{
+    font-size: 10px;
+    visibility: hidden;
+  }
+  .edit-btn{
+    border:none;
+    background-color: unset;
+    color:royalblue;
+    font-size: 10px;
+    visibility: hidden;
+    cursor: pointer;
+  }
+  /* .comment-content-buttons .delete-btn .edit-btn{
+    display: none;
+  } */
+  .comment-content-buttons:hover{
+    background-color: #eeeeee;
+  }
+  .comment-content-buttons:hover .edit-btn{
+    visibility: visible;
+    
+  }
+  .comment-content-buttons:hover .delete-btn{
+    visibility: visible;
+    
+  }

@@ -21,6 +21,8 @@ function ImageCard(props) {
         />
         <CommentsSection
             dogImage={props.dogImage}
+            dogImages={props.dogImages}
+            setDogImages={props.setDogImages}
         />
         <CommentForm
             dogImage={props.dogImage}

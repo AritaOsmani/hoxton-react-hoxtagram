@@ -7,6 +7,9 @@ function CommentsSection(props) {
             <Comment
                 comment={comment}
                 key={comment.id}
+                dogImage={props.dogImage}
+                dogImages={props.dogImages}
+                setDogImages={props.setDogImages}
             />)}
 
         {/* <li>And replace them with the real ones</li>

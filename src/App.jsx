@@ -21,7 +21,14 @@ function App() {
   //   updated = updated.filter(image => image.id !== dogImage.id)
   //   setDogImages(updated);
   // }
-
+  // function deleteComment(dogImage) {
+  //   fetch(`http://localhost:3000/comments/${dogImage.comments.id}`, {
+  //     method: 'DELETE'
+  //   })
+  //   let updated = JSON.parse(JSON.stringify(dogImages));
+  //   updated = updated.filtter(target => target.comments.id !== dogImage.comments.id);
+  //   setDogImages(updated);
+  // }
   return (
     <div className="App">
       <Logo />
