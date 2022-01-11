@@ -32,6 +32,7 @@ function CommentsSection(props) {
                         dogImage={props.dogImage}
                         dogImages={props.dogImages}
                         setDogImages={props.setDogImages}
+                        setEditSelected={props.setEditSelected}
                     />
             })
         } */}

@@ -20,7 +20,7 @@ function AddNewCardForm(props) {
                 updated.unshift(res);
                 props.setDogImages(updated)
             })
-
+            e.target.reset()
         }}
             action="">
             <input name='title' className='title-input' type="text" placeholder="Add a title..." />

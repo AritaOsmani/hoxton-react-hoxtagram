@@ -22,6 +22,11 @@ function Edit(props) {
         props.setEditSelected(false)
     }} className="edit-form" action="">
         <input type="text" name="edit" placeholder="Enter new content...." />
+        <button onClick={function () {
+            props.setEditSelected(false);
+        }} type='button'
+            className="cancel-btn"
+        >Cancel</button>
     </form>
 }
 export default Edit
